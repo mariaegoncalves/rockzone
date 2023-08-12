@@ -1,0 +1,155 @@
+*{
+    background-color: #27272a;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Rubik', sans-serif;
+}
+
+header{
+    padding: 10px 0;
+    margin: 0;
+}
+
+header li{
+    display: inline;
+    margin-left: 16px;
+}
+
+header li a{
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 13px 25px 12px 25px;
+    text-align: center;
+    justify-content: space-between;
+}
+
+header h1 img{
+    width: 100%;
+}
+
+.img-header{
+    margin: 0 auto;
+    align-items: center;
+    width: 75px;
+    padding: 0;
+}
+
+.navigation-container{
+    max-width: 1280px;
+    width: 100%;    
+}
+
+.navigation-container ul{
+    margin-top: 2.5%;
+    font-size: 0.95em;
+    font-weight: 100;
+    padding: 0;
+}
+
+header .navigation-container{
+    display: flex;
+    margin: 0 auto;
+}
+
+.main-container{
+    position: relative;
+    margin: 0;
+    display: block;
+}
+
+.main-container .background{
+    width: 100%;
+    align-items: center;
+    margin: 0;
+    padding: 0px 100px 0px 100px;
+    border-radius: 9.5%;
+}
+
+.logo, .background{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.logo{
+    margin-top: 15%;
+    margin-left: 30%;
+    z-index: 1;
+    background-color: transparent;
+}
+
+.container{
+
+}
+
+.news-section{
+    width: 100%;
+    margin-top: 50rem;
+    display: block;
+    align-items: center;
+}
+
+.news-section .title{
+    width: 60%;
+    text-align: center;
+    margin-left: 18%;
+}
+
+.news-section .title h2{
+    font-size: 55px;
+    text-transform: uppercase;
+    margin-top: 50px;
+    color: rgb(128, 107, 80);
+    font-weight: 400;
+}
+
+.title p{
+    color: rgb(183, 182, 182);
+    font-size: 18px;
+    margin-top: 10px;
+    margin-left: 5px;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 50px;
+    margin: 25px 30px auto;
+}
+
+.cards .card {
+    width: 100%;
+    position: relative;
+}
+
+.image-section img {
+    width: 100%;
+    height: auto;
+}
+
+.content-card {
+    padding: 15px 20px;
+}
+
+.content-card h4 {
+    font-size: 16px;
+    color: rgb(146, 135, 121);
+}
+
+.content-card p {
+    color: #a29d9d;
+    font-size: 13px;
+    margin-top: 5px;
+}
+
+.content-card a {
+    text-decoration: none;
+    color: #fff;
+    margin-top: 12px;
+    display: inline-block;
+    background-color: #843838;
+    padding: 5px 11px;
+    
+}
