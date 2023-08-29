@@ -95,5 +95,24 @@
             </div>
         </div>
     </div>
+    <div class="newsletter">
+        <h2>Assine nossa Newsletter</h2>
+        <p>Receba as últimas notícias de rock direto na sua caixa de entrada.</p>
+        <form action="#" method="post">
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" placeholder="Seu nome" required>
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" name="email" placeholder="Digite seu e-mail" required>
+            <label for="interesse">Interesse musical:</label>
+            <select id="interesse" name="interesse" required>
+                <option value="" disabled selected>Escolha uma opção</option>
+                <option value="rock">Rock</option>
+                <option value="metal">Metal</option>
+                <option value="punk">Punk</option>
+                <option value="outro">Outro</option>
+            </select>
+            <button type="submit">Assinar</button>
+        </form>
+    </div>
 </body>
 </html>

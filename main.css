@@ -80,10 +80,6 @@ header .navigation-container{
     background-color: transparent;
 }
 
-.container{
-
-}
-
 .news-section{
     width: 100%;
     margin-top: 50rem;
@@ -151,5 +147,58 @@ header .navigation-container{
     display: inline-block;
     background-color: #843838;
     padding: 5px 11px;
-    
+}
+.newsletter {
+    padding: 40px;
+    text-align: center;
+}
+
+.newsletter h2 {
+    color: #693333;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.newsletter p {
+    color: #a29d9d;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.newsletter form {
+    color: #a29d9d;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+.newsletter label,
+.newsletter button {
+    font-size: 15px;
+}
+
+.newsletter input, select {
+    color: #a29d9d;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 50px;
+    margin-right: 10px;
+}
+
+.newsletter button {
+    color: #ccc;
+    border: solid 2px #716b5f;
+    border-radius: 50px;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-top: 15px;
+}
+
+.newsletter button:hover {
+    background-color: #716b5f;
+}
+
+select option {
+    color: #ccc;
 }
